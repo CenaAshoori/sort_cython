@@ -1,17 +1,15 @@
-
 from sort_c import bubblesort_caller
+from sort_cython_non_optimaze import bubblesort as cy_sort_non
 from sort_cython import bubblesort as cy_sort
 from sort_python import bubblesort as py_sort
-import matplotlib.pyplot as plt
+
 import random
 import timeit
 import array
 import create_plot
-import numpy as np
 
-
-def compare_code(n: list):
-    t1, t2, t3 = [], [], []
+def compare_code(n: list,palett):
+    t1, t2, t3, t4 = [], [], [], []
     ms_in_sec = 1000
 
     for i in n:
@@ -27,14 +25,25 @@ def compare_code(n: list):
         print(f"Cython[{i}]:", round(dur * ms_in_sec, 1), "ms")
         t2.append(round(dur * ms_in_sec, 1))
 
-        dur = timeit.timeit(lambda: py_sort.bubbleSort(unsort), number=1)
-        print(f"Python[{i}]:", round(dur * ms_in_sec, 1), "ms")
+        dur = timeit.timeit(lambda: cy_sort_non.bubbleSort(unsort), number=1)
+        print(f"Cython - NON[{i}]:", round(dur * ms_in_sec, 1), "ms")
         t3.append(round(dur * ms_in_sec, 1))
 
-    create_plot.save_plot(n, ("C", "Cython", "Python"), (t1, t2, t3))
+        dur = timeit.timeit(lambda: py_sort.bubbleSort(unsort), number=1)
+        print(f"Python[{i}]:", round(dur * ms_in_sec, 1), "ms")
+        t4.append(round(dur * ms_in_sec, 1))
+        print()
+
+    create_plot.save_plot(n, ("C", "Cython","Cython-NON", "Python"), (t1, t2, t3,t4),palett)
 
 
 # n = [100, 300, 400, ]
 # compare_code(n)
-n = [ 500, 1000, 2000,4000]
-compare_code(n)
+palett = """
+#D8E3E7
+#51C4D3
+#126E82
+#132C33
+"""
+n = [500, 1000, 2000, 3000,4000 ,6000]
+compare_code(n,palett)
