@@ -1365,8 +1365,8 @@ static int __pyx_pf_7cpython_5array_5array___getbuffer__(arrayobject *__pyx_v_se
 static void __pyx_pf_7cpython_5array_5array_2__releasebuffer__(CYTHON_UNUSED arrayobject *__pyx_v_self, Py_buffer *__pyx_v_info); /* proto */
 /* Late includes */
 
-/* "bubblesort_caller.pyx":8
- *     void say_hi()
+/* "bubblesort_caller.pyx":7
+ *     void sort(int* arr, int size)
  * 
  * cpdef c_sort(array.array arr, int size):             # <<<<<<<<<<<<<<
  *     sort(arr.data.as_ints, size)
@@ -1378,15 +1378,15 @@ static PyObject *__pyx_f_17bubblesort_caller_c_sort(arrayobject *__pyx_v_arr, in
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("c_sort", 0);
 
-  /* "bubblesort_caller.pyx":9
+  /* "bubblesort_caller.pyx":8
  * 
  * cpdef c_sort(array.array arr, int size):
  *     sort(arr.data.as_ints, size)             # <<<<<<<<<<<<<<
  */
   sort(__pyx_v_arr->data.as_ints, __pyx_v_size);
 
-  /* "bubblesort_caller.pyx":8
- *     void say_hi()
+  /* "bubblesort_caller.pyx":7
+ *     void sort(int* arr, int size)
  * 
  * cpdef c_sort(array.array arr, int size):             # <<<<<<<<<<<<<<
  *     sort(arr.data.as_ints, size)
@@ -1433,11 +1433,11 @@ static PyObject *__pyx_pw_17bubblesort_caller_1c_sort(PyObject *__pyx_self, PyOb
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_size)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("c_sort", 1, 2, 2, 1); __PYX_ERR(0, 8, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("c_sort", 1, 2, 2, 1); __PYX_ERR(0, 7, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "c_sort") < 0)) __PYX_ERR(0, 8, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "c_sort") < 0)) __PYX_ERR(0, 7, __pyx_L3_error)
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
       goto __pyx_L5_argtuple_error;
@@ -1446,17 +1446,17 @@ static PyObject *__pyx_pw_17bubblesort_caller_1c_sort(PyObject *__pyx_self, PyOb
       values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
     }
     __pyx_v_arr = ((arrayobject *)values[0]);
-    __pyx_v_size = __Pyx_PyInt_As_int(values[1]); if (unlikely((__pyx_v_size == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 8, __pyx_L3_error)
+    __pyx_v_size = __Pyx_PyInt_As_int(values[1]); if (unlikely((__pyx_v_size == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 7, __pyx_L3_error)
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("c_sort", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 8, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("c_sort", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 7, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("bubblesort_caller.c_sort", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_arr), __pyx_ptype_7cpython_5array_array, 1, "arr", 0))) __PYX_ERR(0, 8, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_arr), __pyx_ptype_7cpython_5array_array, 1, "arr", 0))) __PYX_ERR(0, 7, __pyx_L1_error)
   __pyx_r = __pyx_pf_17bubblesort_caller_c_sort(__pyx_self, __pyx_v_arr, __pyx_v_size);
 
   /* function exit code */
@@ -1477,7 +1477,7 @@ static PyObject *__pyx_pf_17bubblesort_caller_c_sort(CYTHON_UNUSED PyObject *__p
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("c_sort", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __pyx_f_17bubblesort_caller_c_sort(__pyx_v_arr, __pyx_v_size, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 8, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_17bubblesort_caller_c_sort(__pyx_v_arr, __pyx_v_size, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 7, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
