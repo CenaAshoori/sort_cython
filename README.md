@@ -52,38 +52,45 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-
+In this project, we are comparing the execution time of four different approaches, including :
+- Pure C
+- Optimized Cython
+- Non-Optimized Cython
+- Pure Python
 
 ### Built With
 
 
 * [Python](https://www.python.org)
-* [PyCharm](https://www.jetbrains.com/pycharm)
+* [VS Code](https://code.visualstudio.com)
+* [Cython docs](https://cython.org/#documentation)
+* [Matplotlib](https://matplotlib.org/stable/gallery/index.html)
+* thanks to [Color hunt](https://colorhunt.co)
 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-
-
 ### Prerequisites
 
 * Python 3, An IDE 
-
-
-* Git
+* C compiler (gcc, ...)
+* Cython lib
+* matplotlib 
 
 ### Installation
 
-1. Clone the repo
+- Clone the repo
  ```sh
    git clone https://github.com/CenaAshoori/sort_cython
  ``` 
-2. Run the code :) 
 
-
+- Install requirement :
+```bash
+pip install cython
+pip install matplotlib
+```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
