@@ -126,21 +126,21 @@ Parsa KamaliPour | `97149081` | [Link](https://github.com/benymaxparsa)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/benymaxparsa/8-Puzzle-Solver-AStar-IDA?style=for-the-badge
-[contributors-url]: https://github.com/benymaxparsa/8-Puzzle-Solver-AStar-IDA/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/benymaxparsa/8-Puzzle-Solver-AStar-IDA?style=for-the-badge
-[forks-url]: https://github.com/benymaxparsa/8-Puzzle-Solver-AStar-IDA/network/members
-[stars-shield]: https://img.shields.io/github/stars/benymaxparsa/8-Puzzle-Solver-AStar-IDA?style=for-the-badge
-[stars-url]: https://github.com/benymaxparsa/8-Puzzle-Solver-AStar-IDA/stargazers
-[issues-shield]: https://img.shields.io/github/issues/benymaxparsa/8-Puzzle-Solver-AStar-IDA?style=for-the-badge
-[issues-url]: https://github.com/benymaxparsa/8-Puzzle-Solver-AStar-IDA/issues
-[issues-closed-shield]: https://img.shields.io/github/issues-closed/benymaxparsa/8-Puzzle-Solver-AStar-IDA?style=for-the-badge
-[issues-closed-url]: https://github.com/benymaxparsa/8-Puzzle-Solver-AStar-IDA/issues?q=is%3Aissue+is%3Aclosed
-[pull-req-shield]: https://img.shields.io/github/issues-pr/benymaxparsa/8-Puzzle-Solver-AStar-IDA?style=for-the-badge
-[pull-req-url]: https://github.com/benymaxparsa/8-Puzzle-Solver-AStar-IDA/pulls
-[pull-closed-shield]: https://img.shields.io/github/issues-pr-closed/benymaxparsa/8-Puzzle-Solver-AStar-IDA?style=for-the-badge
-[pull-closed-url]: https://github.com/benymaxparsa/8-Puzzle-Solver-AStar-IDA/pulls?q=is%3Apr+is%3Aclosed
-[milestones-shield]: https://img.shields.io/github/milestones/all/benymaxparsa/8-Puzzle-Solver-AStar-IDA?style=for-the-badge
-[milestones-url]: https://github.com/benymaxparsa/8-Puzzle-Solver-AStar-IDA/milestones
-[license-shield]: https://img.shields.io/github/license/benymaxparsa/8-Puzzle-Solver-AStar-IDA?style=for-the-badge
-[license-url]: https://github.com/benymaxparsa/8-Puzzle-Solver-AStar-IDA/blob/main/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/CenaAshoori/sort_cython?style=for-the-badge
+[contributors-url]: https://github.com/CenaAshoori/sort_cython/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/CenaAshoori/sort_cython?style=for-the-badge
+[forks-url]: https://github.com/CenaAshoori/sort_cython/network/members
+[stars-shield]: https://img.shields.io/github/stars/CenaAshoori/sort_cython?style=for-the-badge
+[stars-url]: https://github.com/CenaAshoori/sort_cython/stargazers
+[issues-shield]: https://img.shields.io/github/issues/CenaAshoori/sort_cython?style=for-the-badge
+[issues-url]: https://github.com/CenaAshoori/sort_cython/issues
+[issues-closed-shield]: https://img.shields.io/github/issues-closed/CenaAshoori/sort_cython?style=for-the-badge
+[issues-closed-url]: https://github.com/CenaAshoori/sort_cython/issues?q=is%3Aissue+is%3Aclosed
+[pull-req-shield]: https://img.shields.io/github/issues-pr/CenaAshoori/sort_cython?style=for-the-badge
+[pull-req-url]: https://github.com/CenaAshoori/sort_cython/pulls
+[pull-closed-shield]: https://img.shields.io/github/issues-pr-closed/CenaAshoori/sort_cython?style=for-the-badge
+[pull-closed-url]: https://github.com/CenaAshoori/sort_cython/pulls?q=is%3Apr+is%3Aclosed
+[milestones-shield]: https://img.shields.io/github/milestones/all/CenaAshoori/sort_cython?style=for-the-badge
+[milestones-url]: https://github.com/CenaAshoori/sort_cython/milestones
+[license-shield]: https://img.shields.io/github/license/CenaAshoori/sort_cython?style=for-the-badge
+[license-url]: https://github.com/CenaAshoori/sort_cython/blob/main/LICENSE
