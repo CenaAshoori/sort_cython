@@ -4,13 +4,15 @@ from PIL import ImageColor
 import matplotlib.pyplot as plt
 import numpy as np
 
-def save_plot(n,t1,t2 ):
+def save_plot(n,text,times ):
     palett = """
-#77D970
-#FF0075
 #172774
+#FF0075
 #EEEEEE
+#77D970
 """
+    txt_1,txt_2,txt_3 = text
+    t1,t2,t3 = times
     palett = list(map(lambda x:"#"+x.strip(),palett.split("#")[1:]))
     print(palett)
     # n = [2, 10, 100, 500, 1000]
@@ -46,10 +48,11 @@ def save_plot(n,t1,t2 ):
         ax.spines["bottom"].set_linestyle("-")
         
         plt.rcParams['axes.labelcolor'] =mokhalef
-        ax.bar(n, t1, width,  label='Cython',color=color_b)
-
+        ax.bar(n, t1, width,  label=txt_1,color=color_a)
         ax.bar(n, t2, width,  bottom=t1,
-            label='Python',color=color_c)
+            label=txt_2,color=color_b)
+        ax.bar(n, t3, width,  bottom=t2,
+            label=txt_3,color=color_c)
 
         ax.set_ylabel('Execution Time')
         ax.set_xlabel('Input')
@@ -58,5 +61,5 @@ def save_plot(n,t1,t2 ):
 
         plt.savefig("final/output"+f"_{i}", facecolor=color_d, bbox_inches="tight",
                     pad_inches=0.3, transparent=True)
-        break
+        # break
     plt.show()
