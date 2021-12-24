@@ -96,7 +96,7 @@ pip install matplotlib
 ## Usage
 Cython enables you to create extension modules from **Python**, **Cython**, or **C** code to a compiled version of it, which is much faster compared to just using python. 
 
-Numpy, for example, uses this method
+Numpy, for example, uses this method  
 
 
   
@@ -106,9 +106,16 @@ we have implemented bubble sort in 4 diffrent methods :
 2. An optimized Cython
 3. Non optimized Cython
 4. Python
+  
+ 
+Initially, you will need to build these three codes, and after that, you can import them into the `run.py` file.  
 
-to import first three methods you must build them using its setup file in its folder   
- #TODO
+```bash
+  python setup.py build_ext --inplace
+```
+  
+Check out the `Cython` documentation to learn how it works, and how you can change the bubble sort to a different algorithm!  
+Good luck!
   
 ## Testing and Screenshots  
   
