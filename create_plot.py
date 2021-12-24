@@ -70,7 +70,7 @@ def save_plot(n, text, times, palett):
         ax.bar_label(python, padding=10)
         ax.legend()
 
-        plt.savefig("final/output"+f"_{i}", facecolor=color_d, bbox_inches="tight",
+        plt.savefig("doc/plot/"+f"_{i}", facecolor=color_d, bbox_inches="tight",
                     pad_inches=0.3, transparent=True)
         break
     plt.show()
